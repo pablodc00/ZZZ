@@ -1,9 +1,11 @@
 package com.dummy.fibo;
 
+import org.junit.Assert;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import junit.framework.Assert;
+
 
 /**
  * FibonacciAPITest
