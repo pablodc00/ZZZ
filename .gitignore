@@ -5,4 +5,5 @@ echo .project
 bin
 .project
 .classpath
-.classes
+classes
+.settings
