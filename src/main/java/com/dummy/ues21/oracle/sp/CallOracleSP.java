@@ -3,9 +3,9 @@ package com.dummy.ues21.oracle.sp;
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
+//import java.sql.ResultSet;
 import java.sql.Types;
-import oracle.jdbc.OracleTypes;
+//import oracle.jdbc.OracleTypes;
 
 
 public class CallOracleSP {
