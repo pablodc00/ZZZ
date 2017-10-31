@@ -5,7 +5,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Types;
-import oracle.jdbc.OracleTypes;
+//import oracle.jdbc.OracleTypes;
 
 
 public class CallOracleSP {
