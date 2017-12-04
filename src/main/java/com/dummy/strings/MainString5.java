@@ -1,8 +1,8 @@
-package com.dummy.work;
+package com.dummy.strings;
 
 import java.text.NumberFormat;
 
-public class Main4Strings {
+public class MainString5 {
 
     public static void main(String[] args) {
         long points = 23456789;

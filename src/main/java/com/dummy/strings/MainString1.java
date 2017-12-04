@@ -1,8 +1,8 @@
-package com.dummy.work;
+package com.dummy.strings;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class MainString {
+public class MainString1 {
 
     public static void main(String[] args) {
         

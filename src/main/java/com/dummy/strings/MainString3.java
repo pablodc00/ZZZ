@@ -1,4 +1,4 @@
-package com.dummy.work;
+package com.dummy.strings;
 
 public class MainString3 {
 

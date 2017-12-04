@@ -1,4 +1,4 @@
-package com.dummy.work;
+package com.dummy.strings;
 
 import org.apache.commons.lang3.StringUtils;
 
