@@ -10,6 +10,12 @@ import org.joda.time.DateTime;
 public class Main8Date {
 
     public static void main(String[] args) {
+    	LocalDate limitDate = LocalDate.of(2021, 06, 18).plusDays(75);
+    	System.out.print(limitDate);
+        
+    }
+    
+    public static void someTests() {
         Date date = new Date();
         System.out.println(date);
         System.out.println(new DateTime(date.getTime()).toDateMidnight().toDate());
@@ -32,8 +38,7 @@ public class Main8Date {
         LocalDate localDate2 = Instant.ofEpochMilli(date2.getTime()).atZone(ZoneId.systemDefault()).toLocalDate();
         System.out.println(localDate2);
         
-        System.out.println(localDate1.compareTo(localDate2));
-        
+        System.out.println(localDate1.compareTo(localDate2));    	
     }
 
 }
