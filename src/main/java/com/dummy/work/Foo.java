@@ -1,16 +1,16 @@
 package com.dummy.work;
 
 public class Foo {
-    static volatile Integer y = new Integer(0);
+    static volatile Integer y = 0;
     
     public void foo() {
-        y = new Integer(10);
+        y = 10;
         update(y);
         System.out.println(y);
     }
     
     public void update(Integer y) {        
-        y = new Integer(30);
+        y = 30;
     }
     
     static String fizzBuzz(int untilVal) {
