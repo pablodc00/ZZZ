@@ -19,7 +19,13 @@ public class MainString3 {
         
         System.out.println( s1 == s2 ); // false
         System.out.println( s1.equals( s2 )); // true
-        
+
+
+        String s3 = "HELLO";
+        String s4 = "HELLO";
+
+
+
         
         System.out.println("END");
         
