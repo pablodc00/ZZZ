@@ -21,8 +21,9 @@ public class LargestRectangleHistogramWithStack {
 		// hist = Arrays.asList(0, 1, 0, 1, 0, 5, 6); //10
 		// hist = Arrays.asList(5, 1, 1, 1, 1, 1, 0); //6
 		// hist = Arrays.asList(5, 4, 3, 2, 1); //9
-		hist = Arrays.asList(5, 4, 6, 3, 2, 1); //12
+		//hist = Arrays.asList(5, 4, 6, 3, 2, 1); //12
 		// hist = Arrays.asList(1); //1
+		hist = Arrays.asList(4, 5, 6, 3, 2, 1); //
 
 		largestRectangle(hist);
 		System.out.println(maxSize);

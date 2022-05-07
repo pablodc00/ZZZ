@@ -15,7 +15,6 @@ public class AppCompute {
         }
         
         
-        
         Map<String, Integer> dummy = new HashMap<>();
         dummy.compute("one", (k, v) -> v == null ? 1 : v + 1);
         dummy.compute("one", (k, v) -> v == null ? 1 : v + 1);
