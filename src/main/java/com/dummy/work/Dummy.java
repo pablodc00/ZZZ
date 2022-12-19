@@ -8,6 +8,14 @@ public class Dummy {
     private static final Integer LOAN_TERMS = 36;
 
     public static void main(String[] args) {
+
+        String instructions = "EPWNS";
+        //instructions.substring(0,1);
+        for (int i=0; i<instructions.length(); i++) {
+            System.out.println(instructions.substring(i,i+1));
+        }
+
+
         /*
         Double dou1 = 10D;
         Double dou2 = 15D;
@@ -22,11 +30,11 @@ public class Dummy {
         System.out.println(localDate);
         */
         
-        double rate = 0.07;
-        int loanAmount = 1000;
-        double monthlyRepayment = calculateRepayment(rate, loanAmount);
-        System.out.println(monthlyRepayment);
-        System.out.println(monthlyRepayment * LOAN_TERMS);
+//        double rate = 0.07;
+//        int loanAmount = 1000;
+//        double monthlyRepayment = calculateRepayment(rate, loanAmount);
+//        System.out.println(monthlyRepayment);
+//        System.out.println(monthlyRepayment * LOAN_TERMS);
 
     }
 
